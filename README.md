@@ -1,0 +1,2 @@
+# chop
+Chinese text segmentation
