@@ -1,30 +1,33 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on 08 30 16:29:20 2018
+Created on 09 20 22:45:00 2018
 
-@project: CHOP
+@project: smla_info
 @author : likw
-@company: HuMan Inc.
+@company: HuMan Ltd.,Co.
 """
 
-
-from setuptools import setup, find_packages
+from distutils.core import setup
 
 setup(
-    name = "chop",
-    version = "0.1.0",
-    keywords = ("pip", "pathtool","timetool", "magetool", "mage"),
-    description = "Chinese text segmentation",
-    long_description = "Chinese text segmentation from HuMan Inc.",
-    license = "MIT Licence",
-
-    url = "https://github.com/smart-lands-com/chop",
-    author = "smartlands",
-    author_email = "info@smart-lands.com",
-
-    packages = find_packages(),
-    include_package_data = True,
-    platforms = "any",
-    install_requires = []
+    name="smla_cut",
+    version="0.1.1",
+    author="smartlands",
+    author_email="info@smart-lands.com",
+    keywords='Smart Lands, Chinese word segementation',
+    description="Chinese text segmentation from HuMan Inc.",
+    long_description="Chinese text segmentation from HuMan Inc.",
+    url="https://github.com/smart-lands-com/smla-cut",
+    classifiers=[
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.2',
+        'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3.4',
+        "License :: OSI Approved :: MIT License",
+    ],
+    packages=['smla_cut'],
+    package_dir={'smla_cut':'smla_cut'},
+    package_data={'smla_cut':['*.*', 'data/*', 'data/emit/*.json']},
 )
