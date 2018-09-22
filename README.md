@@ -1,4 +1,4 @@
-# smla-info
+# smla-cut
 
 Chinese text segmentation.
 
