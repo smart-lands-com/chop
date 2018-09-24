@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on 09 20 22:45:00 2018
+Created on 09 24 19:19:34 2018
 
-@project: smla_info
+@project: smla_cut
 @author : likw
 @company: HuMan Ltd.,Co.
 """
